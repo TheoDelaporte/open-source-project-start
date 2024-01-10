@@ -1,17 +1,28 @@
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+# Open Source Project: JavaScript Calculator
 
-# Contribute to the start of my Open Source project
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![JavaScript](https://img.shields.io/badge/language-JavaScript-yellow.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-The goal of this project is to empower you to contribute code to open source projects on GitHub by teaching you the mechanics of the process in an interactive experience.
+## Overview
 
-## You
+Welcome to the Open Source JavaScript Calculator project! This project aims to provide a simple and flexible solution for performing various mathematical calculations using native JavaScript.
 
-* have started the journey of learning how to code
-* have taken an online course or two
-* are empowered by your new ability to create
-* are curious what "open source" means and how you can do it too
+## Features
 
-## Your mission
+- Addition, subtraction, multiplication, division
+- Basic trigonometric functions (sin, cos, tan)
+- Percentage operations
+- ...
 
-Jump right in and fix issue [#1](https://github.com/theoDelaporte/open-source-project-start/issues/1).
+## Getting Started
 
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/TheoDelaporte/open-source-project.git
