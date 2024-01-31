@@ -19,7 +19,8 @@
   "private": true,
   "scripts": {
     "lint": "eslint src/**/*.js",
-    "test": "mocha --require test/setup.js src/**/*.test.js"
+    "test": "mocha --require test/setup.js src/**/*.test.js",
+    "build": "webpack --config webpack.config.js"
   },
   "devDependencies": {
     "chai": "^4.0.0",
