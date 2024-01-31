@@ -30,12 +30,12 @@ jobs:
       - name: Unit Tests
         run: npm test
 
-  build-and-test:
+  build_and_test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Set up Node.js
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
           node-version: '20'
 
@@ -53,11 +53,10 @@ jobs:
 
   deployment:
     runs-on: ubuntu-latest
-    needs: [linting, unit_tests, build-and-test]
+    needs: [linting, unit_tests, build_and_test]
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
       - name: Deployment
         run: ./deploy.sh
-
